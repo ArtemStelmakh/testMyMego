@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  test_runner:
+    build: .
+    image: mymegogo:1
+    container_name: mymegogo_tests
