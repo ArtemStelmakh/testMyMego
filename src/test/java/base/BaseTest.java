@@ -10,4 +10,5 @@ public class BaseTest {
     public void baseTest() {
         RestAssured.baseURI = ReadConfig.readProperties("api_url");
     }
+
 }

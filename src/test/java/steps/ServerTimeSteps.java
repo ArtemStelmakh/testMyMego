@@ -21,4 +21,5 @@ public class ServerTimeSteps {
         String getCountry = geolocationImp.getCountry(response);
         assertTrue(getCountry.equals(country), String.format("Country is not equals %s", country));
     }
+
 }

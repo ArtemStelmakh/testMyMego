@@ -13,4 +13,5 @@ public class ReadConfig {
         System.out.println(property);
         return property;
     }
+
 }

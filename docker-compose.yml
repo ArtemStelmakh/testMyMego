@@ -5,3 +5,5 @@ services:
     build: .
     image: mymegogo:1
     container_name: mymegogo_tests
+    volumes:
+      - .:/home/apimegogo

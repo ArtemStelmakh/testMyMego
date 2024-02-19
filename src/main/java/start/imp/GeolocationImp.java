@@ -11,4 +11,5 @@ public class GeolocationImp implements GeolocationService {
         Geolocation geolocation = response.extract().as(Geolocation.class);
         return geolocation.getCountry();
     }
+
 }

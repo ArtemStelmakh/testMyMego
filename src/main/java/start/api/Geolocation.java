@@ -24,4 +24,5 @@ public class Geolocation {
 	private String region;
 	private Object lat;
 	private String status;
+
 }
